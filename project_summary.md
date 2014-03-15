@@ -33,7 +33,7 @@ Image averaging (of viewer's images) would be a nice techinique to use to influe
 I have created a web based processing.js prototype of the initial drawing algorithm:
 The prototype uses the Google Data Arts UI controls to allow you to adjust the various drawing parameters.
 
-[Visit the prototype here](http://www.google.com "Example Link")
+[Visit the prototype here](http://www.brondbjerg.co.uk/demos/labs/generative-portraits/ "Prototype")
 
 ## Images
 
