@@ -3,32 +3,38 @@
 ## Author
 - Mike Brondbjerg, https://github.com/brondbjerg
 
-## Description
+## Background
 Digital design is often created and consumed on-screen and can be clinical and lacking serendipity. I wanted to create work that draws from analogue sources and so, this project started as an investigation into colour and composition sampling from existing classical portraits and landscapes.
 
 This is a project I had already begun, with my series of static portraits of "Dead Presidents".
-It was featured recently on the Artists & Algorists blog: [Read Article](http://artistsandalgorists.com/dead-presidents/ "Link to article") 
+It was featured recently on the Artists & Algorists blog: [Read Article](http://artistsandalgorists.com/dead-presidents/ "Link to article").
 
-## Link to Prototype
-NOTE: If your project lives online you can add one or more links here. Make sure you have a stable version of your project running before linking it.
+I have also written about the process behind my drawing algorithm here using Processing & Porcessing.js here: [Read Post](hhttp://www.brondbjerg.co.uk/blog/2014/02/generative-portraits-with-processing-js/ "Link to post").
 
-[Example Link](http://www.google.com "Example Link")
+For openness & consistency, I'll be covering these first steps in the project in my posts below and then moving on to new development specifically for the DevArt project.
 
-## Example Code
-NOTE: Wrap your code blocks or any code citation by using ``` like the example below.
-```
-function test() {
-  console.log("Printing a test");
-}
-```
-## Links to External Libraries
- NOTE: You can also use this space to link to external libraries or Github repositories you used on your project.
+## Proposal
+For the DevArt project I would like to take my initial generative portraiture work to the next stage.
 
-[Example Link](http://www.google.com "Example Link")
+I propose exhibiting Reimagined Portraits (if possible) opposite the original classical portraits in a gallery setting.
 
-## Images & Videos
-NOTE: For additional images you can either use a relative link to an image on this repo or an absolute link to an externally hosted image.
+Reimagined Portraits will be displayed on life size displays / projections and move beyond static artwork and start introducing randomised / algorithmic motion.
 
-![Example Image](project_images/cover.jpg?raw=true "Example Image")
+I'm keen to explore interaction (both real world and virtual) between the exhibition visitor and artwork.
+Of particular interest is the idea of the "Observer Effect" [Wikipedia](http://en.wikipedia.org/wiki/Observer_effect "Link to article"), which refers to "changes that the act of observation will make on a phenomenon being observed".
 
-https://www.youtube.com/watch?v=30yGOxJJ2PQ
+I will investigate how the Reimagined Portraits could be changed by the observer, perhaps by: proximity, observer's image, head orientation, viewing position, number of viewers, sound, movement or even the observer's online presence (for example their social profile picture or account preferences).
+
+An online exhibition could open the artwork to web users who could collectively contribute their image to the work. 
+Image averaging (of viewer's images) would be a nice techinique to use to influence the evolved output of the reimagined portrait.
+
+
+## Processing.js Prototype
+I have created a web based processing.js prototype of the initial drawing algorithm:
+The prototype uses the Google Data Arts UI controls to allow you to adjust the various drawing parameters.
+
+[Visit the prototype here](http://www.google.com "Example Link")
+
+## Images
+
+
