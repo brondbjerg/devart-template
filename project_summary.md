@@ -1,4 +1,4 @@
-# Reimagined Portraiture
+# Portraiture Reimagined
 
 ## Author
 - Mike Brondbjerg, https://github.com/brondbjerg
