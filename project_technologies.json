@@ -1,13 +1,19 @@
 {
     "technologies": {
         "apis": [
-            "insert apis"
+            "search",
+            "g+"
         ],
         "platforms": [
-            "insert platforms"
+            "windows",
+            "mac os",
+            "web"
         ],
         "toolkits": [
-            "insert toolkits"
+            "jquery",
+            "angularjs",
+            "toxiclibs",
+            "opencv"
         ]
     },
     "themes": [
