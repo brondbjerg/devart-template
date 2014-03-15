@@ -4,4 +4,6 @@ There were really 2 seed ideas behind this "Portraiture Reimagined" project:
 
 2) What is is the output like if you keep drawing triangles (or polygons) from the last mouse positions and sample the average colour of the last 2 two.
 
- 
+![Drawing Algorithm Sketch](project_images/003_drawingAlgorithmSketch.jpg?raw=true "Drawing Algorithm Sketch")
+
+
