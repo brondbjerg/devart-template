@@ -1,7 +1,6 @@
-# Project Title
-Reimagined Portraiture
+# Reimagined Portraiture
 
-## Authors
+## Author
 - Mike Brondbjerg, https://github.com/brondbjerg
 
 ## Description
