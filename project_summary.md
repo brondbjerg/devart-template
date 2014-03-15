@@ -37,5 +37,8 @@ The prototype uses the Google Data Arts UI controls to allow you to adjust the v
 
 ## Images
 ![Generative Portrait](project_images/001_MartinVanBuren.jpg?raw=true "Project Image")
+
 ![Generative Portrait](project_images/002_presSeries.jpg?raw=true "Project Image")
+
+
 
