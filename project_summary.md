@@ -1,12 +1,11 @@
 # Project Title
-Insert the name of your project
+Reimagined Portraiture
 
 ## Authors
-- Insert main author name, surname, github account
-- Insert other author(s) name, surname, github account (one per list element)
+- Mike Brondbjerg, https://github.com/brondbjerg
 
 ## Description
-Insert a description containing about 100 to 150 words, including your motivation and the meaning behind your idea and execution. The Judges will be keen to know how your idea pushes the boundaries of code and technology. 
+Digital design is often created and consumed on-screen and can be clinical and lacking serendipity. I wanted to create work that draws from analogue sources and so, this project started as an investigation into colour and composition sampling from existing classical portraits and landscapes.
 
 ## Link to Prototype
 NOTE: If your project lives online you can add one or more links here. Make sure you have a stable version of your project running before linking it.
