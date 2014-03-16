@@ -160,9 +160,7 @@ int sampleRate = 8;
 int shapePoints = 5;
 ```
 
-The code for these demos are on GitHub here:
-
-[View on GitHub](https://github.com/brondbjerg/devart-template/tree/master/project_code/demos "View on GitHub")
+The code for these demos are on GitHub here: [View on GitHub](https://github.com/brondbjerg/devart-template/tree/master/project_code/demos "View on GitHub")
 
 
 
