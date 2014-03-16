@@ -1,0 +1,253 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, html {
+	height:100%;
+	overflow:hidden;
+}
+
+body {
+	background-color: #000;
+	margin: 0px;
+}
+
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+}
+
+p {
+	padding:0 0 5px 0;
+	margin:0;
+}
+
+h1 {
+	font-family:"DIN 1451 Mittelschrift Standard", Helvetica, Arial, sans-serif, serif; 
+	font-size:24px;
+	font-weight:normal; 
+	font-style:normal;
+	text-transform:uppercase;
+	margin:0;
+	padding:0;
+	padding-bottom:3px;
+}
+
+h2 {
+	font-family:"DIN 1451 Mittelschrift Standard", Helvetica, Arial, sans-serif, serif;
+	font-size:18px;
+	font-weight:normal; 
+	font-style:normal;
+	text-transform:uppercase;
+	margin:0;
+	padding:0;
+	padding-bottom:3px;
+}
+
+h3 {
+	font-family:"DIN 1451 Mittelschrift Standard", Helvetica, Arial, sans-serif, serif;
+	font-size:16px;
+	font-weight:normal; 
+	font-style:normal;
+	text-transform:uppercase;
+	margin:0;
+	padding:0;
+	padding-bottom:0px;
+}
+
+a {
+	color:#999;
+	text-decoration:none;
+}
+
+
+#project-details {
+	position:absolute;
+	top:20px;
+	left:20px;
+	width:245px;
+	font-size: 10px;
+	border-top:#fff 1px solid;
+	padding-top:5px;
+	overflow:hidden;
+}
+
+
+
+#intro {
+	padding-bottom:5px;
+	margin-bottom:5px;
+	border-bottom:#fff 1px solid;
+}
+
+	#intro h3 {
+		float:left;
+		width:220px;
+	}
+
+#description {
+	clear:both;
+}
+
+
+
+#instructions {
+	padding-bottom:5px;
+	margin-bottom:5px;
+	border-bottom:#fff 1px solid;
+}
+
+	
+
+
+#PJS {
+	position:absolute;
+	z-index:0;
+	width:540px;
+	height:540px;
+	margin: 20px 0 0 0;
+	left:50%;
+	margin-left:-270px;
+	display:block;
+	border: solid 1px #666;
+}
+
+#content {
+	width:100%;
+	min-height:100%;
+	margin-bottom:-65px;
+	pointer-events:none;
+}
+
+#footer {
+	width:100%;
+	height:45px;
+	padding:15px 0 0 0;
+	margin:0;
+	border-top:1px #fff solid;
+	position:absolute;
+	z-index:2;
+	background: #121212;
+	background: rgba(18, 18, 18, 0.8);
+	text-align:center;
+}
+
+#footer-left {
+	float:left;
+	padding:0 0 0 20px;
+	text-align:left;
+}
+
+#footer-mid {
+	padding:5px 0 0 0;
+	width:250px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+	.footer-lbl {
+		float:left;
+		padding:10px 10px 0 0;
+	}
+	
+	#share-container {
+		float:left;
+	}
+
+#footer-right {
+	float:right;
+	padding:0 20px 0 0;
+	text-align:right;
+}
+	#social-container {
+		float:left;
+	}
+
+.btn {
+	text-indent: -9999px; 
+	white-space: nowrap; 
+	outline: none;	
+}
+
+.textBtn {
+	color:#000;
+	text-decoration:none;
+	padding:1px 4px 1px 4px;
+	background:#fff;
+}
+
+.textBtn:hover {
+	color:#fff;
+	background:#2fa1d6;
+}
+
+.logoBtn {
+	float:left;
+	width:110px;
+	height:30px;
+	background:url(img/bdd.png) no-repeat;
+	background-size:contain;	
+}
+
+.doOpen {
+	display:none;
+	float:right;
+	width:15px;
+	height:15px;
+	background:url(img/btn_pls.jpg) no-repeat;
+	background-size:contain;
+}
+
+.doClose {
+	float:right;
+	width:15px;
+	height:15px;
+	background:url(img/btn_mns.jpg) no-repeat;
+	background-size:contain;
+}
+
+#project-info {
+	display: none;
+	width:500px;
+	height:330px;
+}
+
+#project-info p {
+	padding: 0 0 10px 0;
+}
+
+.project-image {
+	float:right;
+	border:0;
+	margin:0 0 0 25px;
+}
+
+#project-info .behance-link {
+	text-decoration:none;
+	color:#333;
+	background:url(img/behance.png) no-repeat;
+	background-size:contain;
+	height:20px;
+	display:block;
+	padding:5px 0 0 30px;
+	margin:0 0 5px 0;
+}
+
+#project-info .bdd-link {
+	text-decoration:none;
+	color:#333;
+	background:url(img/moreBDD.png) no-repeat;
+	background-size:contain;
+	height:20px;
+	display:block;
+	padding:5px 0 0 30px;
+	margin:0 0 5px 0;
+}
+
+#processing-links {
+	margin:0;
+	padding:0;
+}
+
+
