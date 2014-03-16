@@ -14,20 +14,20 @@ Varying the speed at which the mouse is sampled and also increasing the number o
 
 ##Processing.js Demos
 
-1. [Demo 001](http://www.brondbjerg.co.uk/demos/devart/001/ "Demo 001")
+1: [Launch Demo 001](http://www.brondbjerg.co.uk/demos/devart/001/ "Demo 001")
 
 ```
 int sampleRate = 8; 
 int shapePoints = 3;
 ```
 
-2. [Demo 002](http://www.brondbjerg.co.uk/demos/devart/002/ "Demo 002")
+2: [Launch Demo 002](http://www.brondbjerg.co.uk/demos/devart/002/ "Demo 002")
 
 ```
 int sampleRate = 0; 
 int shapePoints = 3;
 ```
-3. [Demo 003](http://www.brondbjerg.co.uk/demos/devart/003/ "Demo 003")
+3: [Launch Demo 003](http://www.brondbjerg.co.uk/demos/devart/003/ "Demo 003")
 
 ```
 int sampleRate = 8; 
