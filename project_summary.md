@@ -9,7 +9,7 @@ Digital design is often created and consumed on-screen and can be clinical and l
 This is a project I had already begun, with my series of static portraits of "Dead Presidents".
 It was featured recently on the Artists & Algorists blog: [Read Article](http://artistsandalgorists.com/dead-presidents/ "Link to article").
 
-I have also written about the process behind my drawing algorithm here using Processing & Porcessing.js here: [Read Post](hhttp://www.brondbjerg.co.uk/blog/2014/02/generative-portraits-with-processing-js/ "Link to post").
+I have also written about the process behind my drawing algorithm here using Processing & Porcessing.js here: [Read Post](http://www.brondbjerg.co.uk/blog/2014/02/generative-portraits-with-processing-js/ "Link to post").
 
 For openness & consistency, I'll be covering these first steps in the project in my posts below and then moving on to new development specifically for the DevArt project.
 
