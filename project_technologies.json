@@ -1,7 +1,6 @@
 {
     "technologies": {
         "apis": [
-            "search",
             "g+"
         ],
         "platforms": [
@@ -11,9 +10,7 @@
         ],
         "toolkits": [
             "jquery",
-            "angularjs",
-            "toxiclibs",
-            "opencv"
+            "toxiclibs"
         ]
     },
     "themes": [
