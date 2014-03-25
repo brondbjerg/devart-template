@@ -47,3 +47,4 @@ I've included the demo code on GitHub here (demo006_GPlusPortrait): [View on Git
 
 
 
+
