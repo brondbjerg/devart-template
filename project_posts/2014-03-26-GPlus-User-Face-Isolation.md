@@ -24,6 +24,8 @@ As with the last demo, if you have a G+ account, you can sign in and try the dem
 
 When your face is detected, your image will be passed into processing, where it will be isolated and blended with the classical portrait.
 
+![Face & Portrait Blending Demo](project_images/008_GplusFaceBlendingApp.jpg?raw=true "Face & Portrait Blending Demo")
+
 
 ##The Next Step
 Tomorrow we move onto imposing the SVG portrait compostion over this blended "observer effect" portrait.
