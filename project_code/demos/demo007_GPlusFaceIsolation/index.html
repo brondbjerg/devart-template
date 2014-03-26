@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+	<head>
+	<meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=0.5, maximum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi"/>
+    
+    <link href="style.css" rel="stylesheet" type="text/css">
+   <title>Google DevArt Project Demo : Built with @ProcessingOrg and @Processingjs</title>
+	</head>
+    
+	<body>
+    
+    	<div id="hiresImageHolder"></div>
+    
+    	<canvas id="PJS" data-processing-sources="demo007_GPlusFaceIsolation.pde" width="545" height="750">
+        	<p>Your browser does not support the canvas tag.</p>
+        </canvas>
+    	<div id="project-details">
+        	<div id="details-container">
+                <div id="intro">
+                    <a href="javascript:void(0);" class="btn doOpen">Open</a>
+                    <a href="javascript:void(0);" class="btn doClose">Close</a>
+                    <h3 id="title">DevArt Demo: 007</h3>
+                    <div id="description">
+                        <p>Demo for the "Portraiture Reimagined" project on <a href="https://devart.withgoogle.com/" target="_blank">Google DevArt.</a></p>
+                    </div>
+                </div>
+                <div id="instructions">
+                    <p><img src="MartinVanBuren.jpg" width="80" alt="Portrait" style="float:left; margin:0 15px 0 0">Log in to your G+ account, and we will attempt to detect your face and add your image to the portrait canvas. </p>
+                    <p>In this demo we also isolate and mask the G+ user's face. Then use MULTIPLY blend mode to combine user with the original portrait.</p>
+                    
+                    <span id="signinButton">
+                      <span
+                        class="g-signin"
+                        data-callback="onSignIn"
+                        data-clientid="{- INSERT YOUR G+ API CLIENT ID HERE -}"
+                        data-cookiepolicy="single_host_origin"
+                        
+                        data-scope="profile">
+                      </span>
+                    </span>
+                  <p id="detectStatus"></p>
+                    <div id="loresImageHolder"></div>
+                </div>
+                <div id="processing-links">
+                    <p>Source code: <a href="demo007_GPlusFaceIsolation.pde">demo007_GPlusFaceIsolation</a>  </p>
+                    <p>Built with <a href="http://processing.org" title="Processing" target="_blank">Processing</a> and <a href="http://processingjs.org" title="Processing.js" target="_blank">Processing.js</a>
+                    </p>
+                 </div>
+               
+            </div>
+        </div>        
+        
+	<div id="content">&nbsp;</div>	
+    	<div id="footer">
+	        <div id="footer-left">
+    	    	<a href="http://www.brondbjerg.co.uk" target="_blank" class="btn logoBtn">Brondbjerg Design & Development</a>
+            </div>
+            <div id="footer-right">
+    	    	<div class="footer-lbl">Fork me on GitHub:</div>
+                <div id="social-container">
+                	<a href="https://github.com/brondbjerg/devart-template" target="_blank"><img src="img/GitHub-Mark-Light-64px.png" width="32" height="32" alt="GitHub"></a>
+                </div>
+            </div>
+          <div id="footer-mid">
+           &nbsp;
+          </div>
+    </div>
+        
+    
+    </div> 
+    
+    
+   
+    
+    <!-- LIBS -->
+    <script src="js/jquery/jquery-1.10.2.min.js"></script> 
+    <script src="js/facedetection/ccv.js"></script> 
+	<script src="js/facedetection/face.js"></script>
+	<script src="js/jquery.facedetection.js"></script> 
+    
+    
+   
+    
+    <!--[if lt IE 9]>
+        <script type="text/javascript">alert("Your browser does not support the canvas tag.");</script>
+    <![endif]-->
+   
+    <script src="processing.js" type="text/javascript"></script>
+    <script type="text/javascript">
+// convenience function to get the id attribute of generated sketch html element
+function getProcessingSketchId () { return 'demo007GPlusFaceIsolation'; }
+</script>
+ 
+    
+    
+    <script type="text/javascript" src="js/app.js"></script>
+    
+    
+    
+    
+        
+	</body>
+</html>
