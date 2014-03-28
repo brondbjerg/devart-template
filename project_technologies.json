@@ -10,7 +10,7 @@
         ],
         "toolkits": [
             "jquery",
-            "toxiclibs"
+            "opencv"
         ]
     },
     "themes": [
